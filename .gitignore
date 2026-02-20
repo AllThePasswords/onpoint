@@ -7,3 +7,4 @@ out/
 *.app
 *.zip
 .claude/
+.vercel
