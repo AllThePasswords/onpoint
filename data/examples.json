@@ -1,0 +1,175 @@
+{
+  "examples": [
+    {
+      "id": "breeze-ai-standalone",
+      "tags": ["ai", "zero-to-one", "product-launch", "hubspot", "breeze", "shipping", "strategy", "vision"],
+      "questionKeywords": ["ship", "launch", "zero to one", "new product", "AI product", "biggest accomplishment", "proud of", "shipped", "built from scratch", "greenfield", "ai first", "standalone", "most impactful"],
+      "lead": "I led the design of HubSpot's Breeze AI standalone app — zero to one, from vision to production in 90 days, contributing to a +10 point NPS lift for Sales Hub.",
+      "context": "Inherited Breeze Assistant at 1.9% usage. Reframed from 'add AI features' to 'what work should AI own.' Shipped standalone AI-first sales assistant anchored around meeting prep — AI inspects CRM, pulls context, synthesizes into task-specific interface.",
+      "metrics": "1.9% to 44% week-2 retention, 90-day delivery, +10 NPS, $1B Sales Hub ARR context",
+      "category": "ai-product"
+    },
+    {
+      "id": "breeze-ai-process",
+      "tags": ["ai", "process", "ways-of-working", "engineering", "design-engineering", "shipping", "speed"],
+      "questionKeywords": ["how did you work", "process", "design process", "handoff", "engineering collaboration", "ways of working", "how your team works", "design and engineering", "fast", "speed", "velocity"],
+      "lead": "On Breeze, I removed traditional design-to-eng handoffs — designers worked directly in production code and LLM instruction files, so AI behavior, interaction design, and UI evolved as one system.",
+      "context": "No Figma-to-spec-to-build cycles. Created a lightweight AA-accessible design system purpose-built for AI workflows. Design decisions validated in production, not review decks. Managed and coached team while working hands-on in code.",
+      "metrics": "90-day delivery, no net-new headcount, production iOS + Android from day one",
+      "category": "process"
+    },
+    {
+      "id": "breeze-design-decisions",
+      "tags": ["ai", "product-thinking", "decision-making", "trade-offs", "strategy"],
+      "questionKeywords": ["trade-off", "hard decision", "product decision", "chose", "why did you decide", "approach", "strategy", "disagreed", "pushed back", "conviction"],
+      "lead": "I chose to build Breeze as a standalone app over embedding it in HubSpot's existing UI — a deliberate break from legacy navigation to create an AI-first interaction model.",
+      "context": "Four key decisions: standalone app over embedded UI, intent-led workflows over chat-first, opinionated defaults over enterprise configuration, and designing in production over traditional handoffs. Each had a clear trade-off discussed with leadership.",
+      "metrics": "Standalone shipped in 90 days, validated new interaction model at scale",
+      "category": "product-thinking"
+    },
+    {
+      "id": "mobile-scaling",
+      "tags": ["mobile", "growth", "hubspot", "scaling", "platform", "strategy", "nps"],
+      "questionKeywords": ["mobile", "growth", "scale", "platform", "usage", "adoption", "biggest impact", "drove results", "metrics", "data driven", "nps"],
+      "lead": "I repositioned HubSpot's mobile app from companion tool to primary sales work surface — driving 8x weekly usage growth and the highest NPS in the company.",
+      "context": "When I joined, mobile had 2 designers and primarily supported basic CRM viewing. Led a top-tasks research program, identified that sales reps spend most of their day away from desks. Customers active on desktop and mobile showed higher engagement and higher ARR.",
+      "metrics": "8x weekly active usage, highest NPS in company, 2 to 6 designers, 55-person group with 6 pods",
+      "category": "product-growth"
+    },
+    {
+      "id": "mobile-research-led",
+      "tags": ["research", "user-research", "vision", "strategy", "customer", "discovery"],
+      "questionKeywords": ["research", "user research", "customer insight", "discovery", "understand users", "how did you learn", "talked to customers", "customer driven", "data informed"],
+      "lead": "At HubSpot, I led a top-tasks research program that redefined our mobile strategy — proving that field sales reps needed a primary work surface, not a companion app.",
+      "context": "Research showed sales reps spend most of their day away from desks — calling, emailing, meeting between locations. Customers active on both desktop and mobile had higher engagement and ARR. This insight shifted the entire mobile roadmap from 'view CRM on phone' to 'run your sales day from mobile.'",
+      "metrics": "Led to 8x usage growth, repositioned mobile strategy across the org",
+      "category": "research"
+    },
+    {
+      "id": "team-scaling",
+      "tags": ["leadership", "hiring", "team-building", "scaling", "management", "growth"],
+      "questionKeywords": ["build a team", "build team", "scale team", "scale design", "design team", "design teams", "hire", "grow", "manage designers", "leadership style", "team culture", "team building", "recruiting", "grew the team", "how big was your team"],
+      "lead": "I scaled HubSpot's mobile design team from 2 to 6 designers while growing myself from Design Manager to Senior Design Manager across a 55-person group.",
+      "context": "Built and led a mobile design pod in close partnership with PM and Engineering. Hired across different experience levels. Every strong hire compounded — they attracted better candidates, elevated critique sessions, and set implicit standards that pulled the team forward.",
+      "metrics": "2 to 6 designers, 55-person group, 6 pods, hired 12 designers total across tenure",
+      "category": "leadership"
+    },
+    {
+      "id": "hiring-philosophy",
+      "tags": ["hiring", "leadership", "talent", "taste", "judgment", "interview"],
+      "questionKeywords": ["what do you look for", "hire for", "hiring", "interview process", "evaluate designers", "what makes a good designer", "talent", "recruiting philosophy"],
+      "lead": "I hire for product judgment over craft specialization — can the designer operate autonomously within ambiguity, and do they show taste in decision-making?",
+      "context": "Four criteria: product judgment over craft specialization, autonomy (can they operate without constant direction), comfort working directly with eng and PM, and taste and clarity in decision-making. When a designer consistently shows strong taste, cross-functional partners trust them as the tastemaker — less debate, more building.",
+      "metrics": "Hired 12 designers, exited 3, multiple successful PIPs",
+      "category": "leadership"
+    },
+    {
+      "id": "performance-management",
+      "tags": ["leadership", "performance", "management", "feedback", "pip", "hard-conversations", "accountability"],
+      "questionKeywords": ["performance", "underperformer", "underperformers", "feedback", "hard conversation", "fired", "let go", "pip", "performance improvement", "low performer", "difficult situation", "conflict", "managed out", "manage underperformers", "tough conversation"],
+      "lead": "Of 12 designers I hired, I exited 3 through PIPs — in every case the team became healthier, standards clearer, and output improved.",
+      "context": "Weekly performance system: Monday 15-min standup (commitment, not status), Wednesday group critique (quality coaching in the room), outcomes-based reviews (an Amplitude chart, not a 10-page doc). Skills can be developed, but taste and judgment tend to be established before senior level.",
+      "metrics": "12 hired, 3 exited, multiple PIPs, one PIP designer now thriving as senior at a WorkTech AI company",
+      "category": "leadership"
+    },
+    {
+      "id": "performance-system",
+      "tags": ["leadership", "management", "process", "rituals", "critique", "feedback"],
+      "questionKeywords": ["management style", "how do you manage", "one on one", "critique", "feedback loop", "rituals", "how do you run your team", "design review", "operating rhythm"],
+      "lead": "I run a simple weekly system: Monday commitments, Wednesday group critique, and outcomes-based reviews — a performance review should be a couple of sentences and an Amplitude chart, not a 10-page doc.",
+      "context": "Monday 15-min standup where everyone states their target (not a status update — a commitment). Wednesday group design critique — quality coaching happens in the room, not in separate 1:1s. Strong performers manage themselves. The Monday record builds the paper trail naturally.",
+      "metrics": "Weekly cadence across 6+ designers, consistent quality improvement",
+      "category": "leadership"
+    },
+    {
+      "id": "org-change",
+      "tags": ["leadership", "reorg", "change-management", "resilience", "advocacy"],
+      "questionKeywords": ["reorg", "reorganization", "change", "layoff", "restructure", "organizational change", "navigate change", "uncertainty", "difficult time", "challenging period"],
+      "lead": "I led my design team through a HubSpot reorg that affected 25% of our group — designers who consistently delivered impact were easy to advocate for, which reinforced our outcomes-based system.",
+      "context": "The reorg affected ~25% of the group including a designer on my team. Led through it by balancing transparency, empathy, and forward momentum. The outcomes-based performance system I'd built meant I had clear evidence to advocate for my people.",
+      "metrics": "25% of group affected, team maintained momentum through the transition",
+      "category": "leadership"
+    },
+    {
+      "id": "design-systems",
+      "tags": ["design-systems", "consistency", "quality", "craft", "scale", "patterns"],
+      "questionKeywords": ["design system", "consistency", "pattern", "scale design", "quality bar", "design ops", "component", "shared patterns", "design at scale"],
+      "lead": "I established shared design patterns and critique rituals across HubSpot's sales surfaces — improving consistency and delivery speed across desktop and mobile.",
+      "context": "Helped establish shared design patterns and critique rituals to improve consistency and delivery speed. Built a purpose-built design system for AI workflows on Breeze. Consistency across surfaces meant faster decisions and fewer debates.",
+      "metrics": "Cross-surface consistency across desktop and mobile sales experiences",
+      "category": "craft"
+    },
+    {
+      "id": "central-valuations",
+      "tags": ["b2b", "saas", "regulated", "fintech", "zero-to-one", "startup", "product-lead"],
+      "questionKeywords": ["startup", "regulated", "b2b saas", "built a product", "product lead", "founded", "own product", "current role", "side project", "financial", "compliance"],
+      "lead": "I'm currently Product Lead at Central Valuations — I designed and launched Ireland's first centralized residential valuations platform, now underpinning over 1 billion euro in mortgage underwriting.",
+      "context": "Designed and launched a regulated B2B SaaS valuations platform with secure, auditable national infrastructure. End-to-end product ownership from concept to market.",
+      "metrics": "Over 1 billion euro in mortgage underwriting, national infrastructure, regulated B2B SaaS",
+      "category": "product-leadership"
+    },
+    {
+      "id": "b2b-complexity",
+      "tags": ["b2b", "complexity", "enterprise", "simplification", "product-thinking", "ux"],
+      "questionKeywords": ["complex", "b2b", "enterprise", "simplify", "hard problem", "ambiguity", "complicated", "messy", "legacy", "technical complexity"],
+      "lead": "My whole career is making complex B2B workflows feel simple — at HubSpot I reframed AI from a 12-step setup to intent-led workflows where the user says what they need and AI orchestrates.",
+      "context": "From HubSpot's Sales Hub CRM workflows to AI configuration to regulated valuations platforms — consistently taking complexity and finding the simpler model underneath. Progressive disclosure with smart defaults rather than exposing every option.",
+      "metrics": "Across HubSpot Sales Hub ($1B ARR), Breeze AI, and Central Valuations",
+      "category": "product-thinking"
+    },
+    {
+      "id": "ai-transition",
+      "tags": ["ai", "transformation", "legacy", "modernization", "strategy", "vision"],
+      "questionKeywords": ["ai transformation", "legacy to ai", "modernize", "ai strategy", "future of ai", "ai adoption", "ai vision", "transition to ai", "ai roadmap"],
+      "lead": "At HubSpot I shifted the internal mindset from 'where do we add AI?' to 'what work should AI own?' — that reframe unlocked the Breeze standalone product.",
+      "context": "AI had been bolted onto legacy workflows — adoption was low, trust inconsistent, AI added work instead of replacing it. Reframed to 'brilliant basics' — nail core capabilities first. Intent recognition, orchestrated response, confidence-appropriate output. This is the exact pattern for any AI-first product transition.",
+      "metrics": "Shifted from 1.9% usage to 44% week-2 retention on new model",
+      "category": "ai-strategy"
+    },
+    {
+      "id": "stakeholder-management",
+      "tags": ["stakeholders", "communication", "executive", "influence", "alignment"],
+      "questionKeywords": ["stakeholder", "stakeholders", "executive", "influence", "alignment", "communicate up", "leadership buy-in", "presented to", "executive visibility", "navigate politics", "cross functional", "difficult stakeholder", "managed up"],
+      "lead": "Breeze had more stakeholders than team members at times — I learned to be more aggressive about shielding the team from organizational overhead while keeping execs informed through outcomes, not process.",
+      "context": "High executive visibility on Breeze due to AI being company-wide priority. Balanced keeping leadership informed with protecting the team's focus. The honest reflection: should have clarified ownership of AI behavior earlier and been more aggressive shielding the team.",
+      "metrics": "Shipped under executive scrutiny, 90-day timeline held",
+      "category": "leadership"
+    },
+    {
+      "id": "customer-closeness",
+      "tags": ["customer", "sales", "go-to-market", "field", "feedback", "customer-driven"],
+      "questionKeywords": ["customer", "close to customer", "customer feedback", "go to market", "sales team", "customer driven", "field research", "understand the market"],
+      "lead": "I wrote about how closeness to Sales teams is often accidental rather than deliberate — at HubSpot I built structured feedback loops between design and field sales to ground decisions in real customer behavior.",
+      "context": "Published 'Closer to Customers, Faster to Market' about making customer closeness intentional. At HubSpot, connected design directly with sales reps to understand how they actually worked in the field, which drove the mobile-first strategy.",
+      "metrics": "Direct input into mobile strategy that drove 8x usage growth",
+      "category": "product-thinking"
+    },
+    {
+      "id": "why-this-company",
+      "tags": ["motivation", "career", "fit", "values", "vision"],
+      "questionKeywords": ["why us", "why this company", "why do you want", "what excites you", "what attracted you", "motivation", "why are you interested", "why leave"],
+      "lead": "I'm looking for a place where design has real authority to shape product direction — my best work happens when I can connect AI capability to real user workflows, not just add features.",
+      "context": "Career pattern: taking complex B2B products through AI transitions at scale. Looking for design leadership roles where the team has genuine influence on product strategy, not just execution. Values: shipping over process, outcomes over outputs, taste as a hiring signal.",
+      "metrics": "",
+      "category": "motivation"
+    },
+    {
+      "id": "weakness-or-growth",
+      "tags": ["self-awareness", "growth", "weakness", "learning"],
+      "questionKeywords": ["weakness", "improve", "growth area", "learn from", "mistake", "failure", "what would you do differently", "regret"],
+      "lead": "My honest lesson from Breeze: I should have clarified ownership of AI behavior earlier and been more aggressive shielding the team from stakeholder overhead — ambiguity there slowed us more than technical constraints.",
+      "context": "Speed didn't remove complexity on Breeze. As a standalone AI product, it attracted many stakeholders. With hindsight, would have been more aggressive about protecting the team and defining who owned AI behavior decisions. Core lesson: in AI product development, design leadership is about judgment, constraints, and focus — not artifact production.",
+      "metrics": "Still shipped in 90 days, but team experienced unnecessary drag",
+      "category": "self-awareness"
+    },
+    {
+      "id": "aer-lingus",
+      "tags": ["aer-lingus", "airline", "consumer", "mobile", "earlier-career"],
+      "questionKeywords": ["aer lingus", "airline", "earlier career", "before hubspot", "consumer", "previous role", "career path"],
+      "lead": "Before HubSpot, I was Product Design Manager at Aer Lingus for 4 years — that's where I first led mobile design pods and learned to ship in highly regulated, complex environments.",
+      "context": "Product Design Manager at Aer Lingus from 2016-2020. Led mobile design in partnership with PM and Engineering. Learned to work within constraints of regulated industry, complex booking flows, and diverse customer needs.",
+      "metrics": "4 years, Design Manager role, mobile design pod leadership",
+      "category": "career"
+    }
+  ]
+}

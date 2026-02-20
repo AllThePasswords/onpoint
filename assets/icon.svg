@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#141413"/>
+  <rect x="2" y="2" width="508" height="508" rx="98" fill="none" stroke="#2e2e2c" stroke-width="4"/>
+  <circle cx="432" cy="80" r="24" fill="#6fb89f"/>
+  <text x="256" y="275" text-anchor="middle" dominant-baseline="middle" fill="#e8e6e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="220" font-weight="bold">OP</text>
+</svg>

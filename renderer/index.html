@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnPoint</title>
+  <!-- ConversationFirst fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <!-- Titlebar (drag region) -->
+    <div class="titlebar">
+      <div class="titlebar-left">
+        <div class="status-dot" id="statusDot"></div>
+        <span class="title-text">OnPoint</span>
+        <span class="live-badge" id="liveBadge">LIVE</span>
+      </div>
+      <div class="titlebar-right">
+        <button class="btn-stop" id="btnStop" style="display: none;">Stop</button>
+        <button class="btn-icon" id="btnSettings" title="Settings">&#9881;</button>
+        <button class="btn-icon" id="btnMinimize" title="Hide (Cmd+Shift+O)">&#8722;</button>
+      </div>
+    </div>
+
+    <!-- Setup screen -->
+    <div class="setup" id="setupScreen">
+      <div class="setup-title">Ready to coach</div>
+      <div class="setup-desc">
+        OnPoint listens for interview questions and shows you the best example to lead with.<br>
+        Stay punchy. Lead with outcomes.
+      </div>
+      <button class="btn btn-primary" id="btnStart">Start Listening</button>
+      <div class="error-msg" id="errorMsg" style="display: none;"></div>
+    </div>
+
+    <!-- Main content (shown while listening) -->
+    <div class="content" id="mainContent" style="display: none;">
+      <div class="question" id="question"></div>
+      <div class="lead" id="lead"></div>
+
+      <!-- Source panel -->
+      <div class="source-panel" id="sourcePanel" style="display: none;">
+        <div class="source-header">
+          <div class="source-tags">
+            <span class="badge badge-accent" id="badge"></span>
+            <span class="source-id" id="sourceId"></span>
+          </div>
+        </div>
+        <div class="source-metrics" id="sourceMetrics"></div>
+        <div class="source-context" id="sourceContext"></div>
+      </div>
+
+      <!-- Runner-up -->
+      <div class="runner-up" id="runnerUp" style="display: none;">
+        <div class="runner-up-label">Also consider:</div>
+        <div class="runner-up-lead" id="runnerUpLead"></div>
+        <div class="runner-up-meta">
+          <span class="badge badge-muted" id="runnerUpBadge"></span>
+          <span class="source-id" id="runnerUpId"></span>
+        </div>
+      </div>
+
+      <div class="waiting" id="waiting">
+        <canvas class="listening-viz" id="vizCanvas" width="120" height="40"></canvas>
+        <div class="waiting-text">Listening for questions...</div>
+      </div>
+    </div>
+
+    <!-- Settings panel (slides over content) -->
+    <div class="settings-overlay" id="settingsOverlay" style="display: none;">
+      <div class="settings-panel">
+        <div class="settings-header">
+          <span class="settings-title">Settings</span>
+          <button class="btn-icon" id="btnCloseSettings">&times;</button>
+        </div>
+
+        <div class="settings-body">
+          <!-- Instructions section -->
+          <div class="settings-section">
+            <div class="settings-section-title">Answer Instructions</div>
+            <div class="settings-field">
+              <label class="settings-label">Style</label>
+              <textarea class="settings-textarea" id="settingsStyle" rows="3" placeholder="How should answers be structured?"></textarea>
+            </div>
+            <div class="settings-field">
+              <label class="settings-label">Tone</label>
+              <textarea class="settings-textarea" id="settingsTone" rows="2" placeholder="What tone should answers have?"></textarea>
+            </div>
+            <div class="settings-field">
+              <label class="settings-label">Format</label>
+              <select class="settings-select" id="settingsFormat">
+                <option value="short">Short (1 sentence lead)</option>
+                <option value="medium">Medium (2-3 sentences)</option>
+                <option value="bullets">Bullet points</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Sources section -->
+          <div class="settings-section">
+            <div class="settings-section-title">Answer Sources</div>
+            <div class="settings-hint">Where OnPoint looks for examples and content to surface.</div>
+
+            <div class="source-list" id="sourceList">
+              <!-- Populated by JS -->
+            </div>
+
+            <button class="btn-add-source" id="btnAddSource">+ Add folder</button>
+          </div>
+        </div>
+
+        <div class="settings-footer">
+          <button class="btn-save" id="btnSaveSettings">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live transcript ticker -->
+    <div class="transcript" id="transcript">&nbsp;</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "onpoint",
+  "version": "0.1.0",
+  "description": "Real-time interview coach — stay on point with punchy, example-led answers",
+  "main": "main.js",
+  "author": "Eric Greene",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AllThePasswords/onpoint"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "electron": "^33.0.0"
+  }
+}
